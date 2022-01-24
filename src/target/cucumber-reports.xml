@@ -1,210 +1,106 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="10" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="11" time="28.93">
-<testcase classname="Create Customer" name="Validate you can Load HomePage" time="13.556">
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="11" time="39.714">
+<testcase classname="Create Customer" name="Validate you can Load HomePage" time="16.322">
 <system-out><![CDATA[Given I have the correct url................................................passed
 Then I should be able to view Customer login button.........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="All crud operations on a customer" name="Validate create customer operations are executed successfully" time="3.4">
-<failure message="no such alert&#10;  (Session info: chrome=97.0.4692.99)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LTTECH1693', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\DCHEPK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63450}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: c51965cbe56fadfc8fe39c8fa5399f77" type="org.openqa.selenium.NoAlertPresentException"><![CDATA[Given I am at the home page.................................................passed
+<testcase classname="All crud operations on a customer" name="Validate create customer operations are executed successfully" time="3.919">
+<system-out><![CDATA[Given I am at the home page.................................................passed
 Then I can see Bank Manager Login_Button....................................passed
 When I click on Bank Manager Login..........................................passed
 Then I should be able to view Add Customer_Button...........................passed
 When I click on Add Customer Button.........................................passed
 Then I should view input options to enter customer details..................passed
 When I Input "", "","" and click on Add Customer............................passed
-Then I should get a success "Please fill out this field." on the operation..failed
-
-StackTrace:
-org.openqa.selenium.NoAlertPresentException: no such alert
-  (Session info: chrome=97.0.4692.99)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LTTECH1693', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\DCHEPK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63450}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: c51965cbe56fadfc8fe39c8fa5399f77
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:932)
-	at stepDefinition.BankAccount.ValidateCustomerIsCreated(BankAccount.java:99)
-	at ✽.I should get a success "Please fill out this field." on the operation(file:///C:/Users/dchepkemoi/eclipse-workspace2/Automation/src/test/resources/features/02_Customer.feature:15)
-]]></failure>
+Then I should get a success "Please fill out this field." on the operation..passed
+]]></system-out>
 </testcase>
-<testcase classname="All crud operations on a customer" name="Validate create customer operations are executed successfully 2" time="1.88">
-<failure message="no such alert&#10;  (Session info: chrome=97.0.4692.99)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LTTECH1693', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\DCHEPK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63450}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: c51965cbe56fadfc8fe39c8fa5399f77" type="org.openqa.selenium.NoAlertPresentException"><![CDATA[Given I am at the home page.................................................passed
+<testcase classname="All crud operations on a customer" name="Validate create customer operations are executed successfully 2" time="2.265">
+<system-out><![CDATA[Given I am at the home page.................................................passed
 Then I can see Bank Manager Login_Button....................................passed
 When I click on Bank Manager Login..........................................passed
 Then I should be able to view Add Customer_Button...........................passed
 When I click on Add Customer Button.........................................passed
 Then I should view input options to enter customer details..................passed
 When I Input "", "test","5" and click on Add Customer.......................passed
-Then I should get a success "Please fill out this field." on the operation..failed
-
-StackTrace:
-org.openqa.selenium.NoAlertPresentException: no such alert
-  (Session info: chrome=97.0.4692.99)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LTTECH1693', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\DCHEPK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63450}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: c51965cbe56fadfc8fe39c8fa5399f77
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:932)
-	at stepDefinition.BankAccount.ValidateCustomerIsCreated(BankAccount.java:99)
-	at ✽.I should get a success "Please fill out this field." on the operation(file:///C:/Users/dchepkemoi/eclipse-workspace2/Automation/src/test/resources/features/02_Customer.feature:15)
-]]></failure>
+Then I should get a success "Please fill out this field." on the operation..passed
+]]></system-out>
 </testcase>
-<testcase classname="All crud operations on a customer" name="Validate create customer operations are executed successfully 3" time="1.259">
-<failure message="no such alert&#10;  (Session info: chrome=97.0.4692.99)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LTTECH1693', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\DCHEPK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63450}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: c51965cbe56fadfc8fe39c8fa5399f77" type="org.openqa.selenium.NoAlertPresentException"><![CDATA[Given I am at the home page.................................................passed
+<testcase classname="All crud operations on a customer" name="Validate create customer operations are executed successfully 3" time="2.337">
+<system-out><![CDATA[Given I am at the home page.................................................passed
 Then I can see Bank Manager Login_Button....................................passed
 When I click on Bank Manager Login..........................................passed
 Then I should be able to view Add Customer_Button...........................passed
 When I click on Add Customer Button.........................................passed
 Then I should view input options to enter customer details..................passed
 When I Input "test", "","30" and click on Add Customer......................passed
-Then I should get a success "Please fill out this field." on the operation..failed
-
-StackTrace:
-org.openqa.selenium.NoAlertPresentException: no such alert
-  (Session info: chrome=97.0.4692.99)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LTTECH1693', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\DCHEPK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63450}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: c51965cbe56fadfc8fe39c8fa5399f77
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:932)
-	at stepDefinition.BankAccount.ValidateCustomerIsCreated(BankAccount.java:99)
-	at ✽.I should get a success "Please fill out this field." on the operation(file:///C:/Users/dchepkemoi/eclipse-workspace2/Automation/src/test/resources/features/02_Customer.feature:15)
-]]></failure>
+Then I should get a success "Please fill out this field." on the operation..passed
+]]></system-out>
 </testcase>
-<testcase classname="All crud operations on a customer" name="Validate create customer operations are executed successfully 4" time="1.149">
-<failure message="no such alert&#10;  (Session info: chrome=97.0.4692.99)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LTTECH1693', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\DCHEPK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63450}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: c51965cbe56fadfc8fe39c8fa5399f77" type="org.openqa.selenium.NoAlertPresentException"><![CDATA[Given I am at the home page.................................................passed
+<testcase classname="All crud operations on a customer" name="Validate create customer operations are executed successfully 4" time="2.396">
+<system-out><![CDATA[Given I am at the home page.................................................passed
 Then I can see Bank Manager Login_Button....................................passed
 When I click on Bank Manager Login..........................................passed
 Then I should be able to view Add Customer_Button...........................passed
 When I click on Add Customer Button.........................................passed
 Then I should view input options to enter customer details..................passed
 When I Input "test", "test","" and click on Add Customer....................passed
-Then I should get a success "Please fill out this field." on the operation..failed
-
-StackTrace:
-org.openqa.selenium.NoAlertPresentException: no such alert
-  (Session info: chrome=97.0.4692.99)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LTTECH1693', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\DCHEPK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63450}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: c51965cbe56fadfc8fe39c8fa5399f77
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:932)
-	at stepDefinition.BankAccount.ValidateCustomerIsCreated(BankAccount.java:99)
-	at ✽.I should get a success "Please fill out this field." on the operation(file:///C:/Users/dchepkemoi/eclipse-workspace2/Automation/src/test/resources/features/02_Customer.feature:15)
-]]></failure>
+Then I should get a success "Please fill out this field." on the operation..passed
+]]></system-out>
 </testcase>
-<testcase classname="All crud operations on a customer" name="Validate create customer operations are executed successfully 5" time="1.326">
-<failure message="" type="java.lang.AssertionError"><![CDATA[Given I am at the home page.................................................passed
+<testcase classname="All crud operations on a customer" name="Validate create customer operations are executed successfully 5" time="1.822">
+<failure message="unexpected alert open: {Alert text : Customer added successfully with customer id :6}&#10;  (Session info: chrome=97.0.4692.99): Customer added successfully with customer id :6&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LTTECH1693', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\DCHEPK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63860}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 97560d38c2a704904d8b5ff17cf1132d&#10;*** Element info: {Using=xpath, value=//*[@ng-model='fName']}" type="org.openqa.selenium.UnhandledAlertException"><![CDATA[Given I am at the home page.................................................passed
 Then I can see Bank Manager Login_Button....................................passed
 When I click on Bank Manager Login..........................................passed
 Then I should be able to view Add Customer_Button...........................passed
 When I click on Add Customer Button.........................................passed
 Then I should view input options to enter customer details..................passed
 When I Input "test", "test","45" and click on Add Customer..................passed
-Then I should get a success "Please check the details. Customer may be duplicate." on the operation.failed
+Then I should get a success "Customer added successfully with customer id" on the operation.failed
 
 StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:87)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at org.junit.Assert.assertTrue(Assert.java:53)
-	at stepDefinition.BankAccount.ValidateCustomerIsCreated(BankAccount.java:103)
-	at ✽.I should get a success "Please check the details. Customer may be duplicate." on the operation(file:///C:/Users/dchepkemoi/eclipse-workspace2/Automation/src/test/resources/features/02_Customer.feature:15)
+org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Customer added successfully with customer id :6}
+  (Session info: chrome=97.0.4692.99): Customer added successfully with customer id :6
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LTTECH1693', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\DCHEPK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63860}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 97560d38c2a704904d8b5ff17cf1132d
+*** Element info: {Using=xpath, value=//*[@ng-model='fName']}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at stepDefinition.Customer.ValidateCustomerIsCreated(Customer.java:105)
+	at ✽.I should get a success "Customer added successfully with customer id" on the operation(file:///C:/Users/dchepkemoi/eclipse-workspace2/Automation/src/test/resources/features/02_Customer.feature:15)
 ]]></failure>
 </testcase>
-<testcase classname="All crud operations on a customer" name="Validate create customer operations are executed successfully 6" time="1.347">
-<failure message="" type="java.lang.AssertionError"><![CDATA[Given I am at the home page.................................................passed
+<testcase classname="All crud operations on a customer" name="Validate create customer operations are executed successfully 6" time="1.464">
+<failure message="unexpected alert open: {Alert text : Customer added successfully with customer id :7}&#10;  (Session info: chrome=97.0.4692.99): Customer added successfully with customer id :7&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LTTECH1693', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\DCHEPK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63860}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 97560d38c2a704904d8b5ff17cf1132d&#10;*** Element info: {Using=xpath, value=//*[@ng-model='fName']}" type="org.openqa.selenium.UnhandledAlertException"><![CDATA[Given I am at the home page.................................................passed
 Then I can see Bank Manager Login_Button....................................passed
 When I click on Bank Manager Login..........................................passed
 Then I should be able to view Add Customer_Button...........................passed
 When I click on Add Customer Button.........................................passed
 Then I should view input options to enter customer details..................passed
-When I Input "test", "test","45" and click on Add Customer..................passed
-Then I should get a success "Please check the details. Customer may be duplicate." on the operation.failed
+When I Input "test", "test1","45" and click on Add Customer.................passed
+Then I should get a success "Customer added successfully with customer id" on the operation.failed
 
 StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:87)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at org.junit.Assert.assertTrue(Assert.java:53)
-	at stepDefinition.BankAccount.ValidateCustomerIsCreated(BankAccount.java:103)
-	at ✽.I should get a success "Please check the details. Customer may be duplicate." on the operation(file:///C:/Users/dchepkemoi/eclipse-workspace2/Automation/src/test/resources/features/02_Customer.feature:15)
-]]></failure>
-</testcase>
-<testcase classname="All crud operations on a bankaccouunt linked to a customer" name="Validate create customer operations are executed successfully" time="1.727">
-<failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//option[text()=' ']&quot;}&#10;  (Session info: chrome=97.0.4692.99)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LTTECH1693', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\DCHEPK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63450}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: c51965cbe56fadfc8fe39c8fa5399f77&#10;*** Element info: {Using=xpath, value=//option[text()=' ']}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given I am at the home_page page............................................passed
-Then I can view Bank Manager_Login_Button...................................passed
-When I click on Bank_Manager_Login_Button...................................passed
-Then I should be able to view Open_Account_Button...........................passed
-When I click on Open Account Button.........................................passed
-Then I should view input options to enter customer Bank account details.....passed
-When I select "", "" and click on Process...................................failed
-Then I should get a success "Please fill out this field." on the operation..skipped
-
-StackTrace:
-org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//option[text()=' ']"}
-  (Session info: chrome=97.0.4692.99)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Customer added successfully with customer id :7}
+  (Session info: chrome=97.0.4692.99): Customer added successfully with customer id :7
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LTTECH1693', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\DCHEPK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63450}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: c51965cbe56fadfc8fe39c8fa5399f77
-*** Element info: {Using=xpath, value=//option[text()=' ']}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\DCHEPK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63860}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 97560d38c2a704904d8b5ff17cf1132d
+*** Element info: {Using=xpath, value=//*[@ng-model='fName']}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
@@ -213,122 +109,52 @@ Session ID: c51965cbe56fadfc8fe39c8fa5399f77
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at stepDefinition.BankAccount.createCustomer(BankAccount.java:70)
-	at ✽.I select "", "" and click on Process(file:///C:/Users/dchepkemoi/eclipse-workspace2/Automation/src/test/resources/features/03_BankAccount.feature:14)
+	at stepDefinition.Customer.ValidateCustomerIsCreated(Customer.java:105)
+	at ✽.I should get a success "Customer added successfully with customer id" on the operation(file:///C:/Users/dchepkemoi/eclipse-workspace2/Automation/src/test/resources/features/02_Customer.feature:15)
 ]]></failure>
 </testcase>
-<testcase classname="All crud operations on a bankaccouunt linked to a customer" name="Validate create customer operations are executed successfully 2" time="0.925">
-<failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//option[text()=' ']&quot;}&#10;  (Session info: chrome=97.0.4692.99)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LTTECH1693', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\DCHEPK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63450}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: c51965cbe56fadfc8fe39c8fa5399f77&#10;*** Element info: {Using=xpath, value=//option[text()=' ']}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given I am at the home_page page............................................passed
+<testcase classname="All crud operations on a bankaccouunt linked to a customer" name="Validate create customer operations are executed successfully" time="3.71">
+<system-out><![CDATA[Given I am at the home_page page............................................passed
 Then I can view Bank Manager_Login_Button...................................passed
 When I click on Bank_Manager_Login_Button...................................passed
 Then I should be able to view Open_Account_Button...........................passed
 When I click on Open Account Button.........................................passed
 Then I should view input options to enter customer Bank account details.....passed
-When I select "", "test" and click on Process...............................failed
-Then I should get a success "Please fill out this field." on the operation..skipped
-
-StackTrace:
-org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//option[text()=' ']"}
-  (Session info: chrome=97.0.4692.99)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LTTECH1693', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\DCHEPK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63450}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: c51965cbe56fadfc8fe39c8fa5399f77
-*** Element info: {Using=xpath, value=//option[text()=' ']}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at stepDefinition.BankAccount.createCustomer(BankAccount.java:70)
-	at ✽.I select "", "test" and click on Process(file:///C:/Users/dchepkemoi/eclipse-workspace2/Automation/src/test/resources/features/03_BankAccount.feature:14)
-]]></failure>
+When I select "", "" and click on Process...................................passed
+Then I should get a success "Please fill out this field."...................passed
+]]></system-out>
 </testcase>
-<testcase classname="All crud operations on a bankaccouunt linked to a customer" name="Validate create customer operations are executed successfully 3" time="0.835">
-<failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//option[text()=' ']&quot;}&#10;  (Session info: chrome=97.0.4692.99)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LTTECH1693', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\DCHEPK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63450}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: c51965cbe56fadfc8fe39c8fa5399f77&#10;*** Element info: {Using=xpath, value=//option[text()=' ']}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given I am at the home_page page............................................passed
+<testcase classname="All crud operations on a bankaccouunt linked to a customer" name="Validate create customer operations are executed successfully 2" time="1.714">
+<system-out><![CDATA[Given I am at the home_page page............................................passed
 Then I can view Bank Manager_Login_Button...................................passed
 When I click on Bank_Manager_Login_Button...................................passed
 Then I should be able to view Open_Account_Button...........................passed
 When I click on Open Account Button.........................................passed
 Then I should view input options to enter customer Bank account details.....passed
-When I select "test", "" and click on Process...............................failed
-Then I should get a success "Please fill out this field." on the operation..skipped
-
-StackTrace:
-org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//option[text()=' ']"}
-  (Session info: chrome=97.0.4692.99)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LTTECH1693', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\DCHEPK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63450}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: c51965cbe56fadfc8fe39c8fa5399f77
-*** Element info: {Using=xpath, value=//option[text()=' ']}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at stepDefinition.BankAccount.createCustomer(BankAccount.java:70)
-	at ✽.I select "test", "" and click on Process(file:///C:/Users/dchepkemoi/eclipse-workspace2/Automation/src/test/resources/features/03_BankAccount.feature:14)
-]]></failure>
+When I select "", "test" and click on Process...............................passed
+Then I should get a success "Please fill out this field."...................passed
+]]></system-out>
 </testcase>
-<testcase classname="All crud operations on a bankaccouunt linked to a customer" name="Validate create customer operations are executed successfully 4" time="0.82">
-<failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//option[text()=' ']&quot;}&#10;  (Session info: chrome=97.0.4692.99)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LTTECH1693', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\DCHEPK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63450}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: c51965cbe56fadfc8fe39c8fa5399f77&#10;*** Element info: {Using=xpath, value=//option[text()=' ']}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given I am at the home_page page............................................passed
+<testcase classname="All crud operations on a bankaccouunt linked to a customer" name="Validate create customer operations are executed successfully 3" time="1.772">
+<system-out><![CDATA[Given I am at the home_page page............................................passed
 Then I can view Bank Manager_Login_Button...................................passed
 When I click on Bank_Manager_Login_Button...................................passed
 Then I should be able to view Open_Account_Button...........................passed
 When I click on Open Account Button.........................................passed
 Then I should view input options to enter customer Bank account details.....passed
-When I select "test", "test" and click on Process...........................failed
-Then I should get a success "Please fill out this field." on the operation..skipped
-
-StackTrace:
-org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//option[text()=' ']"}
-  (Session info: chrome=97.0.4692.99)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LTTECH1693', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\DCHEPK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63450}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: c51965cbe56fadfc8fe39c8fa5399f77
-*** Element info: {Using=xpath, value=//option[text()=' ']}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at stepDefinition.BankAccount.createCustomer(BankAccount.java:70)
-	at ✽.I select "test", "test" and click on Process(file:///C:/Users/dchepkemoi/eclipse-workspace2/Automation/src/test/resources/features/03_BankAccount.feature:14)
-]]></failure>
+When I select "test", "" and click on Process...............................passed
+Then I should get a success "Please fill out this field."...................passed
+]]></system-out>
+</testcase>
+<testcase classname="All crud operations on a bankaccouunt linked to a customer" name="Validate create customer operations are executed successfully 4" time="1.477">
+<system-out><![CDATA[Given I am at the home_page page............................................passed
+Then I can view Bank Manager_Login_Button...................................passed
+When I click on Bank_Manager_Login_Button...................................passed
+Then I should be able to view Open_Account_Button...........................passed
+When I click on Open Account Button.........................................passed
+Then I should view input options to enter customer Bank account details.....passed
+When I select "test", "test" and click on Process...........................passed
+Then I should get a success "Account created successfully with account Number".passed
+]]></system-out>
 </testcase>
 </testsuite>

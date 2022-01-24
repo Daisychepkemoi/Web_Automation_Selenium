@@ -12,11 +12,11 @@ Feature: All crud operations on a bankaccouunt linked to a customer
     When I click on Open Account Button
     Then I should view input options to enter customer Bank account details
     When I select "<Customer>", "<currency>" and click on Process
-    Then I should get a success "<message>" on the operation
+    Then I should get a success "<message>"
 		Examples: 
 		      | Customer  | currency | message|
 		      |||Please fill out this field.|
 		      ||test|Please fill out this field.|
 		      |test||Please fill out this field.|
-		      |test|test|Please fill out this field.|
-		      
+		      |test|test|Account created successfully with account Number|
+#		      

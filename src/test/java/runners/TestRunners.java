@@ -10,13 +10,10 @@ import reports.GenerateNewReports;
 						"html:html_reports.html" ,
 						"json:src/target/json-reports.json" ,
 						"junit:src/target/cucumber-reports.xml",
-						// "rerun:report_output/rerun.txt",
 						},
 				 features = "src/test/resources/features",
 				 glue={"stepDefinition"}
-				//  ,tags="@Todos"
-				// ,tags = ("@Users")
-				 
+				
 						 )
 public class TestRunners {
 		@AfterClass

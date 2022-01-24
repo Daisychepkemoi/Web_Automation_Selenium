@@ -94,7 +94,7 @@ public class BankAccount {
     	}
     	
     }
-    @Then("I should get a success {string} on the operation")
+    @Then("I should get a success {string}")
     public static void ValidateCustomerIsCreated(String Message) throws InterruptedException{
     	    Alert alert = driver.switchTo().alert();
 		    System.out.println("hello");

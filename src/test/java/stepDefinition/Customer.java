@@ -17,6 +17,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import dataAccess.CsvData;
+import io.cucumber.java.After;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -62,7 +63,30 @@ public class Customer {
    
     
     @When("I Input {string}, {string},{string} and click on Add Customer")
-    public static void createCustomer(String fname, String lname, String pcode) throws InterruptedException {
+    public static void createCustomer(String fname, String lname, String pcode) throws InterruptedException,NoAlertPresentException {
+//    	if(wait.until(ExpectedConditions.alertIsPresent())==null) {
+//    		System.out.println("alert was not present");
+//    	}
+//    	else {
+//    		System.out.println("ALRT WAS PRESENT");
+//    		Alert alert = driver.switchTo().alert(); 
+//			alert.accept();
+//    	}
+    	 try 
+    	    { 
+    		 Alert alert= driver.switchTo().alert();
+    	        alert.accept();
+    	        
+    	    }   // try 
+    	    catch (NoAlertPresentException  Ex) 
+    	    { 
+    	    	
+    	        
+    	    } 
+    	 catch(UnhandledAlertException e) {
+    		 
+    	 }
+    	 
     	WebElement firstNameInput = driver.findElement(By.xpath("//*[@ng-model='fName']"));
     	firstNameInput.sendKeys(fname);
     	WebElement lastNameInput = driver.findElement(By.xpath("//*[@ng-model='lName']"));
@@ -75,13 +99,14 @@ public class Customer {
     	submitCustomerDetailsBtn.click();
     	
     }
-    @Then("I should get message {string}")
+    @Then("I should get a success {string} on the operation")
     public static void ValidateCustomerIsCreated(String successMsg) throws InterruptedException{
+    	
     	String firstNameRequiredAttribute = driver.findElement(By.xpath("//*[@ng-model='fName']")).getAttribute("validationMessage");
     	String lastNameRequiredAttribute= driver.findElement(By.xpath("//*[@ng-model='lName']")).getAttribute("validationMessage");
     	String postCodeRequiredAttribute = driver.findElement(By.xpath("//*[@ng-model='postCd']")).getAttribute("validationMessage");
-    	System.out.println("Fist name   " +firstNameRequiredAttribute );
-    	System.out.println("Last name   " +lastNameRequiredAttribute );
+    	System.out.println("Fist name   " +firstName );
+    	System.out.println("Last name   " +lastName );
     	System.out.println("PostCode    " +postCodeRequiredAttribute );
 
     	if(firstNameRequiredAttribute.length() >0) {
@@ -94,12 +119,14 @@ public class Customer {
     		Assert.assertTrue(postCodeRequiredAttribute.contains(successMsg));
     	}
     	else {
-    		
+//    		
     		try{
     			wait.until(ExpectedConditions.alertIsPresent());
     			Alert alert = driver.switchTo().alert();
-    			   
-    			    alert.accept();
+    			String alertText = alert.getText();
+    			 System.out.println("ALERT TESTTTTTTT"+alertText);  
+    			alert.accept();
+    			Assert.assertTrue(alertText.contains(successMsg));
     			} catch (Exception e) {
     			       try {
     			if(e.toString().contains("org.openqa.selenium.UnhandledAlertException"))
@@ -113,6 +140,11 @@ public class Customer {
     			              }
     	}
     }
+//    @After
+//    public void quit() {
+//    	driver.quit();
+//    }
+   
 }
 
     

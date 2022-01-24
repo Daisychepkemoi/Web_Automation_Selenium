@@ -46,7 +46,7 @@ public class AccessHomePage {
 	
     @Then("I should be able to view Customer login button")
 	public static void validateViewOfLandingPage() throws InterruptedException{
-    	wait=new WebDriverWait(driver, 3);
+    	wait=new WebDriverWait(driver, 5);
     	String homePageText= wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[contains(text(),'Bank Manager Login')]"))).getText();
     	Assert.assertEquals(homePageText,"Bank Manager Login" );
     }
