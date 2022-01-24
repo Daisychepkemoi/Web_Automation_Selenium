@@ -1,5 +1,6 @@
 package runners;
 import org.junit.AfterClass;
+import stepDefinition.AccessHomePage;
 import org.junit.runner.RunWith;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -18,6 +19,7 @@ import reports.GenerateNewReports;
 public class TestRunners {
 		@AfterClass
 		public static void after()  throws Exception{
+			AccessHomePage.driver.quit();
 			GenerateNewReports.generateNewReport().generateReports();
 		}
 }

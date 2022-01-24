@@ -6,23 +6,15 @@ import org.junit.Assert;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.NoAlertPresentException;
-import org.openqa.selenium.UnhandledAlertException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.remote.CapabilityType;
-import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import io.cucumber.java.en.And;
+import io.cucumber.java.After;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import dataAccess.CsvData;
-import stepDefinition.Customer;
 
 public class BankAccount {
 	private static WebDriver driver = AccessHomePage.driver;
@@ -103,7 +95,11 @@ public class BankAccount {
 		    Assert.assertTrue(popuupText.contains("Account created successfully with account Number"));
     	 
     }
-    
+//    @After
+//    public static void closeDriver() {
+//    	  driver.close();
+//      
+//    }
     
     
     

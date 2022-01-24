@@ -1,15 +1,15 @@
 -------------------------------------------------------------------------------
 Test set: runners.TestRunners
 -------------------------------------------------------------------------------
-Tests run: 11, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 45.605 sec <<< FAILURE!
-Validate create customer operations are executed successfully #5(All crud operations on a customer)  Time elapsed: 1.785 sec  <<< ERROR!
+Tests run: 11, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 38.479 sec <<< FAILURE!
+Validate create customer operations are executed successfully #5(All crud operations on a customer)  Time elapsed: 1.553 sec  <<< ERROR!
 org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Customer added successfully with customer id :6}
   (Session info: chrome=97.0.4692.99): Customer added successfully with customer id :6
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LTTECH1693', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\DCHEPK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63860}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 97560d38c2a704904d8b5ff17cf1132d
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\DCHEPK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50334}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4fa71da455943640c53dcb540d2e98b1
 *** Element info: {Using=xpath, value=//*[@ng-model='fName']}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -20,17 +20,17 @@ Session ID: 97560d38c2a704904d8b5ff17cf1132d
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at stepDefinition.Customer.ValidateCustomerIsCreated(Customer.java:105)
+	at stepDefinition.Customer.ValidateCustomerIsCreated(Customer.java:73)
 	at ?.I should get a success "Customer added successfully with customer id" on the operation(file:///C:/Users/dchepkemoi/eclipse-workspace2/Automation/src/test/resources/features/02_Customer.feature:15)
 
-Validate create customer operations are executed successfully #6(All crud operations on a customer)  Time elapsed: 1.476 sec  <<< ERROR!
+Validate create customer operations are executed successfully #6(All crud operations on a customer)  Time elapsed: 1.489 sec  <<< ERROR!
 org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Customer added successfully with customer id :7}
   (Session info: chrome=97.0.4692.99): Customer added successfully with customer id :7
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LTTECH1693', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\DCHEPK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63860}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 97560d38c2a704904d8b5ff17cf1132d
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\DCHEPK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50334}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4fa71da455943640c53dcb540d2e98b1
 *** Element info: {Using=xpath, value=//*[@ng-model='fName']}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -41,6 +41,6 @@ Session ID: 97560d38c2a704904d8b5ff17cf1132d
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at stepDefinition.Customer.ValidateCustomerIsCreated(Customer.java:105)
+	at stepDefinition.Customer.ValidateCustomerIsCreated(Customer.java:73)
 	at ?.I should get a success "Customer added successfully with customer id" on the operation(file:///C:/Users/dchepkemoi/eclipse-workspace2/Automation/src/test/resources/features/02_Customer.feature:15)
 

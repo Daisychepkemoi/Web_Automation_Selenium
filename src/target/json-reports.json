@@ -3,11 +3,11 @@
     "line": 3,
     "elements": [
       {
-        "start_timestamp": "2022-01-24T12:38:46.055Z",
+        "start_timestamp": "2022-01-24T13:07:17.859Z",
         "before": [
           {
             "result": {
-              "duration": 11786000000,
+              "duration": 5397000000,
               "status": "passed"
             },
             "match": {
@@ -24,7 +24,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2263000000,
+              "duration": 2185000000,
               "status": "passed"
             },
             "line": 8,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 2137000000,
+              "duration": 1346000000,
               "status": "passed"
             },
             "line": 9,
@@ -77,10 +77,11 @@
     "line": 3,
     "elements": [
       {
-        "start_timestamp": "2022-01-24T12:39:02.416Z",
+        "start_timestamp": "2022-01-24T13:07:26.936Z",
         "before": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -97,7 +98,7 @@
         "steps": [
           {
             "result": {
-              "duration": 662000000,
+              "duration": 821000000,
               "status": "passed"
             },
             "line": 8,
@@ -109,7 +110,7 @@
           },
           {
             "result": {
-              "duration": 203000000,
+              "duration": 292000000,
               "status": "passed"
             },
             "line": 9,
@@ -121,7 +122,7 @@
           },
           {
             "result": {
-              "duration": 159000000,
+              "duration": 259000000,
               "status": "passed"
             },
             "line": 10,
@@ -133,7 +134,7 @@
           },
           {
             "result": {
-              "duration": 931000000,
+              "duration": 706000000,
               "status": "passed"
             },
             "line": 11,
@@ -145,7 +146,7 @@
           },
           {
             "result": {
-              "duration": 231000000,
+              "duration": 114000000,
               "status": "passed"
             },
             "line": 12,
@@ -157,7 +158,7 @@
           },
           {
             "result": {
-              "duration": 734000000,
+              "duration": 792000000,
               "status": "passed"
             },
             "line": 13,
@@ -169,7 +170,7 @@
           },
           {
             "result": {
-              "duration": 699000000,
+              "duration": 843000000,
               "status": "passed"
             },
             "line": 14,
@@ -195,7 +196,7 @@
           },
           {
             "result": {
-              "duration": 286000000,
+              "duration": 352000000,
               "status": "passed"
             },
             "line": 15,
@@ -222,7 +223,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-01-24T12:39:06.345Z",
+        "start_timestamp": "2022-01-24T13:07:31.137Z",
         "before": [
           {
             "result": {
@@ -242,7 +243,7 @@
         "steps": [
           {
             "result": {
-              "duration": 72000000,
+              "duration": 102000000,
               "status": "passed"
             },
             "line": 8,
@@ -254,7 +255,7 @@
           },
           {
             "result": {
-              "duration": 200000000,
+              "duration": 230000000,
               "status": "passed"
             },
             "line": 9,
@@ -266,7 +267,7 @@
           },
           {
             "result": {
-              "duration": 128000000,
+              "duration": 148000000,
               "status": "passed"
             },
             "line": 10,
@@ -278,7 +279,7 @@
           },
           {
             "result": {
-              "duration": 194000000,
+              "duration": 224000000,
               "status": "passed"
             },
             "line": 11,
@@ -290,7 +291,7 @@
           },
           {
             "result": {
-              "duration": 137000000,
+              "duration": 139000000,
               "status": "passed"
             },
             "line": 12,
@@ -302,7 +303,7 @@
           },
           {
             "result": {
-              "duration": 211000000,
+              "duration": 205000000,
               "status": "passed"
             },
             "line": 13,
@@ -314,7 +315,7 @@
           },
           {
             "result": {
-              "duration": 763000000,
+              "duration": 619000000,
               "status": "passed"
             },
             "line": 14,
@@ -340,7 +341,7 @@
           },
           {
             "result": {
-              "duration": 555000000,
+              "duration": 302000000,
               "status": "passed"
             },
             "line": 15,
@@ -367,7 +368,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-01-24T12:39:08.619Z",
+        "start_timestamp": "2022-01-24T13:07:33.121Z",
         "before": [
           {
             "result": {
@@ -387,7 +388,7 @@
         "steps": [
           {
             "result": {
-              "duration": 206000000,
+              "duration": 77000000,
               "status": "passed"
             },
             "line": 8,
@@ -399,7 +400,7 @@
           },
           {
             "result": {
-              "duration": 177000000,
+              "duration": 149000000,
               "status": "passed"
             },
             "line": 9,
@@ -411,7 +412,7 @@
           },
           {
             "result": {
-              "duration": 148000000,
+              "duration": 116000000,
               "status": "passed"
             },
             "line": 10,
@@ -423,7 +424,7 @@
           },
           {
             "result": {
-              "duration": 250000000,
+              "duration": 168000000,
               "status": "passed"
             },
             "line": 11,
@@ -435,7 +436,7 @@
           },
           {
             "result": {
-              "duration": 155000000,
+              "duration": 116000000,
               "status": "passed"
             },
             "line": 12,
@@ -447,7 +448,7 @@
           },
           {
             "result": {
-              "duration": 221000000,
+              "duration": 159000000,
               "status": "passed"
             },
             "line": 13,
@@ -459,7 +460,7 @@
           },
           {
             "result": {
-              "duration": 778000000,
+              "duration": 512000000,
               "status": "passed"
             },
             "line": 14,
@@ -485,7 +486,7 @@
           },
           {
             "result": {
-              "duration": 397000000,
+              "duration": 257000000,
               "status": "passed"
             },
             "line": 15,
@@ -512,7 +513,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-01-24T12:39:10.965Z",
+        "start_timestamp": "2022-01-24T13:07:34.686Z",
         "before": [
           {
             "result": {
@@ -532,7 +533,7 @@
         "steps": [
           {
             "result": {
-              "duration": 111000000,
+              "duration": 68000000,
               "status": "passed"
             },
             "line": 8,
@@ -544,7 +545,7 @@
           },
           {
             "result": {
-              "duration": 243000000,
+              "duration": 143000000,
               "status": "passed"
             },
             "line": 9,
@@ -556,7 +557,7 @@
           },
           {
             "result": {
-              "duration": 159000000,
+              "duration": 120000000,
               "status": "passed"
             },
             "line": 10,
@@ -568,7 +569,7 @@
           },
           {
             "result": {
-              "duration": 232000000,
+              "duration": 165000000,
               "status": "passed"
             },
             "line": 11,
@@ -580,7 +581,7 @@
           },
           {
             "result": {
-              "duration": 138000000,
+              "duration": 242000000,
               "status": "passed"
             },
             "line": 12,
@@ -592,7 +593,7 @@
           },
           {
             "result": {
-              "duration": 214000000,
+              "duration": 344000000,
               "status": "passed"
             },
             "line": 13,
@@ -604,7 +605,7 @@
           },
           {
             "result": {
-              "duration": 806000000,
+              "duration": 813000000,
               "status": "passed"
             },
             "line": 14,
@@ -630,7 +631,7 @@
           },
           {
             "result": {
-              "duration": 490000000,
+              "duration": 277000000,
               "status": "passed"
             },
             "line": 15,
@@ -657,7 +658,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-01-24T12:39:13.369Z",
+        "start_timestamp": "2022-01-24T13:07:36.871Z",
         "before": [
           {
             "result": {
@@ -677,7 +678,7 @@
         "steps": [
           {
             "result": {
-              "duration": 160000000,
+              "duration": 78000000,
               "status": "passed"
             },
             "line": 8,
@@ -689,7 +690,7 @@
           },
           {
             "result": {
-              "duration": 162000000,
+              "duration": 170000000,
               "status": "passed"
             },
             "line": 9,
@@ -701,7 +702,7 @@
           },
           {
             "result": {
-              "duration": 120000000,
+              "duration": 126000000,
               "status": "passed"
             },
             "line": 10,
@@ -713,7 +714,7 @@
           },
           {
             "result": {
-              "duration": 206000000,
+              "duration": 188000000,
               "status": "passed"
             },
             "line": 11,
@@ -725,7 +726,7 @@
           },
           {
             "result": {
-              "duration": 131000000,
+              "duration": 118000000,
               "status": "passed"
             },
             "line": 12,
@@ -737,7 +738,7 @@
           },
           {
             "result": {
-              "duration": 229000000,
+              "duration": 168000000,
               "status": "passed"
             },
             "line": 13,
@@ -749,7 +750,7 @@
           },
           {
             "result": {
-              "duration": 736000000,
+              "duration": 616000000,
               "status": "passed"
             },
             "line": 14,
@@ -775,8 +776,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Customer added successfully with customer id :6}\n  (Session info: chrome\u003d97.0.4692.99): Customer added successfully with customer id :6\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LTTECH1693\u0027, ip: \u0027192.168.8.101\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_271\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\\Users\\DCHEPK~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:63860}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 97560d38c2a704904d8b5ff17cf1132d\n*** Element info: {Using\u003dxpath, value\u003d//*[@ng-model\u003d\u0027fName\u0027]}\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat stepDefinition.Customer.ValidateCustomerIsCreated(Customer.java:105)\r\n\tat ✽.I should get a success \"Customer added successfully with customer id\" on the operation(file:///C:/Users/dchepkemoi/eclipse-workspace2/Automation/src/test/resources/features/02_Customer.feature:15)\r\n",
-              "duration": 69000000,
+              "error_message": "org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Customer added successfully with customer id :6}\n  (Session info: chrome\u003d97.0.4692.99): Customer added successfully with customer id :6\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LTTECH1693\u0027, ip: \u0027192.168.8.101\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_271\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\\Users\\DCHEPK~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:50334}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4fa71da455943640c53dcb540d2e98b1\n*** Element info: {Using\u003dxpath, value\u003d//*[@ng-model\u003d\u0027fName\u0027]}\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat stepDefinition.Customer.ValidateCustomerIsCreated(Customer.java:73)\r\n\tat ✽.I should get a success \"Customer added successfully with customer id\" on the operation(file:///C:/Users/dchepkemoi/eclipse-workspace2/Automation/src/test/resources/features/02_Customer.feature:15)\r\n",
+              "duration": 63000000,
               "status": "failed"
             },
             "line": 15,
@@ -803,11 +804,10 @@
         ]
       },
       {
-        "start_timestamp": "2022-01-24T12:39:15.217Z",
+        "start_timestamp": "2022-01-24T13:07:38.423Z",
         "before": [
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -824,7 +824,7 @@
         "steps": [
           {
             "result": {
-              "duration": 113000000,
+              "duration": 84000000,
               "status": "passed"
             },
             "line": 8,
@@ -836,7 +836,7 @@
           },
           {
             "result": {
-              "duration": 212000000,
+              "duration": 200000000,
               "status": "passed"
             },
             "line": 9,
@@ -848,7 +848,7 @@
           },
           {
             "result": {
-              "duration": 128000000,
+              "duration": 115000000,
               "status": "passed"
             },
             "line": 10,
@@ -860,7 +860,7 @@
           },
           {
             "result": {
-              "duration": 167000000,
+              "duration": 174000000,
               "status": "passed"
             },
             "line": 11,
@@ -872,7 +872,7 @@
           },
           {
             "result": {
-              "duration": 107000000,
+              "duration": 114000000,
               "status": "passed"
             },
             "line": 12,
@@ -884,7 +884,7 @@
           },
           {
             "result": {
-              "duration": 148000000,
+              "duration": 157000000,
               "status": "passed"
             },
             "line": 13,
@@ -896,7 +896,7 @@
           },
           {
             "result": {
-              "duration": 527000000,
+              "duration": 573000000,
               "status": "passed"
             },
             "line": 14,
@@ -922,8 +922,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Customer added successfully with customer id :7}\n  (Session info: chrome\u003d97.0.4692.99): Customer added successfully with customer id :7\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LTTECH1693\u0027, ip: \u0027192.168.8.101\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_271\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\\Users\\DCHEPK~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:63860}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 97560d38c2a704904d8b5ff17cf1132d\n*** Element info: {Using\u003dxpath, value\u003d//*[@ng-model\u003d\u0027fName\u0027]}\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat stepDefinition.Customer.ValidateCustomerIsCreated(Customer.java:105)\r\n\tat ✽.I should get a success \"Customer added successfully with customer id\" on the operation(file:///C:/Users/dchepkemoi/eclipse-workspace2/Automation/src/test/resources/features/02_Customer.feature:15)\r\n",
-              "duration": 56000000,
+              "error_message": "org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Customer added successfully with customer id :7}\n  (Session info: chrome\u003d97.0.4692.99): Customer added successfully with customer id :7\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LTTECH1693\u0027, ip: \u0027192.168.8.101\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_271\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\\Users\\DCHEPK~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:50334}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4fa71da455943640c53dcb540d2e98b1\n*** Element info: {Using\u003dxpath, value\u003d//*[@ng-model\u003d\u0027fName\u0027]}\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat stepDefinition.Customer.ValidateCustomerIsCreated(Customer.java:73)\r\n\tat ✽.I should get a success \"Customer added successfully with customer id\" on the operation(file:///C:/Users/dchepkemoi/eclipse-workspace2/Automation/src/test/resources/features/02_Customer.feature:15)\r\n",
+              "duration": 66000000,
               "status": "failed"
             },
             "line": 15,
@@ -970,7 +970,7 @@
     "line": 3,
     "elements": [
       {
-        "start_timestamp": "2022-01-24T12:39:16.689Z",
+        "start_timestamp": "2022-01-24T13:07:39.920Z",
         "before": [
           {
             "result": {
@@ -990,7 +990,7 @@
         "steps": [
           {
             "result": {
-              "duration": 73000000,
+              "duration": 81000000,
               "status": "passed"
             },
             "line": 8,
@@ -1002,7 +1002,7 @@
           },
           {
             "result": {
-              "duration": 246000000,
+              "duration": 180000000,
               "status": "passed"
             },
             "line": 9,
@@ -1014,7 +1014,7 @@
           },
           {
             "result": {
-              "duration": 266000000,
+              "duration": 101000000,
               "status": "passed"
             },
             "line": 10,
@@ -1026,7 +1026,148 @@
           },
           {
             "result": {
-              "duration": 221000000,
+              "duration": 141000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should be able to view Open_Account_Button",
+            "match": {
+              "location": "stepDefinition.BankAccount.validateViewOfOpenAccountBtn()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 96000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on Open Account Button",
+            "match": {
+              "location": "stepDefinition.BankAccount.clickOpenAccountButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1885000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should view input options to enter customer Bank account details",
+            "match": {
+              "location": "stepDefinition.BankAccount.validateViewOfOpenAccountInputs()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1042000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I select \"\", \"\" and click on Process",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinition.BankAccount.createCustomer(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 102000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should get a success \"Please fill out this field.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Please fill out this field.\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepDefinition.BankAccount.ValidateCustomerIsCreated(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CRUDONBANKACCOUNT"
+          },
+          {
+            "name": "@createCustomer"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-24T13:07:43.565Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.AccessHomePage.setUpClass()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Validate create customer operations are executed successfully",
+        "description": "",
+        "id": "all-crud-operations-on-a-bankaccouunt-linked-to-a-customer;validate-create-customer-operations-are-executed-successfully;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 88000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am at the home_page page",
+            "match": {
+              "location": "stepDefinition.BankAccount.homepageAccess()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 187000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I can view Bank Manager_Login_Button",
+            "match": {
+              "location": "stepDefinition.BankAccount.validateViewOfBankManagerLogin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 123000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on Bank_Manager_Login_Button",
+            "match": {
+              "location": "stepDefinition.BankAccount.clickBankManagerLogin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 178000000,
               "status": "passed"
             },
             "line": 11,
@@ -1050,7 +1191,7 @@
           },
           {
             "result": {
-              "duration": 1742000000,
+              "duration": 148000000,
               "status": "passed"
             },
             "line": 13,
@@ -1062,148 +1203,7 @@
           },
           {
             "result": {
-              "duration": 968000000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "I select \"\", \"\" and click on Process",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"\"",
-                  "offset": 9
-                },
-                {
-                  "val": "\"\"",
-                  "offset": 13
-                }
-              ],
-              "location": "stepDefinition.BankAccount.createCustomer(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 86000000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "I should get a success \"Please fill out this field.\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Please fill out this field.\"",
-                  "offset": 23
-                }
-              ],
-              "location": "stepDefinition.BankAccount.ValidateCustomerIsCreated(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@CRUDONBANKACCOUNT"
-          },
-          {
-            "name": "@createCustomer"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-01-24T12:39:20.404Z",
-        "before": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinition.AccessHomePage.setUpClass()"
-            }
-          }
-        ],
-        "line": 19,
-        "name": "Validate create customer operations are executed successfully",
-        "description": "",
-        "id": "all-crud-operations-on-a-bankaccouunt-linked-to-a-customer;validate-create-customer-operations-are-executed-successfully;;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 93000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I am at the home_page page",
-            "match": {
-              "location": "stepDefinition.BankAccount.homepageAccess()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 155000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "I can view Bank Manager_Login_Button",
-            "match": {
-              "location": "stepDefinition.BankAccount.validateViewOfBankManagerLogin()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 112000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "I click on Bank_Manager_Login_Button",
-            "match": {
-              "location": "stepDefinition.BankAccount.clickBankManagerLogin()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 137000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "I should be able to view Open_Account_Button",
-            "match": {
-              "location": "stepDefinition.BankAccount.validateViewOfOpenAccountBtn()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 115000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "I click on Open Account Button",
-            "match": {
-              "location": "stepDefinition.BankAccount.clickOpenAccountButton()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 168000000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "I should view input options to enter customer Bank account details",
-            "match": {
-              "location": "stepDefinition.BankAccount.validateViewOfOpenAccountInputs()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 855000000,
+              "duration": 691000000,
               "status": "passed"
             },
             "line": 14,
@@ -1225,7 +1225,7 @@
           },
           {
             "result": {
-              "duration": 76000000,
+              "duration": 67000000,
               "status": "passed"
             },
             "line": 15,
@@ -1252,7 +1252,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-01-24T12:39:22.123Z",
+        "start_timestamp": "2022-01-24T13:07:45.155Z",
         "before": [
           {
             "result": {
@@ -1272,148 +1272,7 @@
         "steps": [
           {
             "result": {
-              "duration": 76000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I am at the home_page page",
-            "match": {
-              "location": "stepDefinition.BankAccount.homepageAccess()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 168000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "I can view Bank Manager_Login_Button",
-            "match": {
-              "location": "stepDefinition.BankAccount.validateViewOfBankManagerLogin()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 107000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "I click on Bank_Manager_Login_Button",
-            "match": {
-              "location": "stepDefinition.BankAccount.clickBankManagerLogin()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 156000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "I should be able to view Open_Account_Button",
-            "match": {
-              "location": "stepDefinition.BankAccount.validateViewOfOpenAccountBtn()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 111000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "I click on Open Account Button",
-            "match": {
-              "location": "stepDefinition.BankAccount.clickOpenAccountButton()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 347000000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "I should view input options to enter customer Bank account details",
-            "match": {
-              "location": "stepDefinition.BankAccount.validateViewOfOpenAccountInputs()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 738000000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "I select \"test\", \"\" and click on Process",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"test\"",
-                  "offset": 9
-                },
-                {
-                  "val": "\"\"",
-                  "offset": 17
-                }
-              ],
-              "location": "stepDefinition.BankAccount.createCustomer(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 64000000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "I should get a success \"Please fill out this field.\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Please fill out this field.\"",
-                  "offset": 23
-                }
-              ],
-              "location": "stepDefinition.BankAccount.ValidateCustomerIsCreated(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@CRUDONBANKACCOUNT"
-          },
-          {
-            "name": "@createCustomer"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-01-24T12:39:23.902Z",
-        "before": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinition.AccessHomePage.setUpClass()"
-            }
-          }
-        ],
-        "line": 21,
-        "name": "Validate create customer operations are executed successfully",
-        "description": "",
-        "id": "all-crud-operations-on-a-bankaccouunt-linked-to-a-customer;validate-create-customer-operations-are-executed-successfully;;5",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 69000000,
+              "duration": 68000000,
               "status": "passed"
             },
             "line": 8,
@@ -1437,6 +1296,148 @@
           },
           {
             "result": {
+              "duration": 110000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on Bank_Manager_Login_Button",
+            "match": {
+              "location": "stepDefinition.BankAccount.clickBankManagerLogin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 144000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should be able to view Open_Account_Button",
+            "match": {
+              "location": "stepDefinition.BankAccount.validateViewOfOpenAccountBtn()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 109000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on Open Account Button",
+            "match": {
+              "location": "stepDefinition.BankAccount.clickOpenAccountButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 140000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should view input options to enter customer Bank account details",
+            "match": {
+              "location": "stepDefinition.BankAccount.validateViewOfOpenAccountInputs()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 665000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I select \"test\", \"\" and click on Process",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinition.BankAccount.createCustomer(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 69000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should get a success \"Please fill out this field.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Please fill out this field.\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepDefinition.BankAccount.ValidateCustomerIsCreated(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CRUDONBANKACCOUNT"
+          },
+          {
+            "name": "@createCustomer"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-24T13:07:46.628Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.AccessHomePage.setUpClass()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Validate create customer operations are executed successfully",
+        "description": "",
+        "id": "all-crud-operations-on-a-bankaccouunt-linked-to-a-customer;validate-create-customer-operations-are-executed-successfully;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 80000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am at the home_page page",
+            "match": {
+              "location": "stepDefinition.BankAccount.homepageAccess()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 146000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I can view Bank Manager_Login_Button",
+            "match": {
+              "location": "stepDefinition.BankAccount.validateViewOfBankManagerLogin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
               "duration": 111000000,
               "status": "passed"
             },
@@ -1449,7 +1450,7 @@
           },
           {
             "result": {
-              "duration": 147000000,
+              "duration": 145000000,
               "status": "passed"
             },
             "line": 11,
@@ -1461,7 +1462,7 @@
           },
           {
             "result": {
-              "duration": 104000000,
+              "duration": 108000000,
               "status": "passed"
             },
             "line": 12,
@@ -1473,7 +1474,7 @@
           },
           {
             "result": {
-              "duration": 150000000,
+              "duration": 141000000,
               "status": "passed"
             },
             "line": 13,
@@ -1485,7 +1486,7 @@
           },
           {
             "result": {
-              "duration": 667000000,
+              "duration": 673000000,
               "status": "passed"
             },
             "line": 14,
@@ -1507,7 +1508,7 @@
           },
           {
             "result": {
-              "duration": 66000000,
+              "duration": 83000000,
               "status": "passed"
             },
             "line": 15,

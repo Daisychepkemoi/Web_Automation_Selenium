@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="11" time="39.714">
-<testcase classname="Create Customer" name="Validate you can Load HomePage" time="16.322">
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="11" time="30.607">
+<testcase classname="Create Customer" name="Validate you can Load HomePage" time="9.048">
 <system-out><![CDATA[Given I have the correct url................................................passed
 Then I should be able to view Customer login button.........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="All crud operations on a customer" name="Validate create customer operations are executed successfully" time="3.919">
+<testcase classname="All crud operations on a customer" name="Validate create customer operations are executed successfully" time="4.188">
 <system-out><![CDATA[Given I am at the home page.................................................passed
 Then I can see Bank Manager Login_Button....................................passed
 When I click on Bank Manager Login..........................................passed
@@ -16,7 +16,7 @@ When I Input "", "","" and click on Add Customer............................pass
 Then I should get a success "Please fill out this field." on the operation..passed
 ]]></system-out>
 </testcase>
-<testcase classname="All crud operations on a customer" name="Validate create customer operations are executed successfully 2" time="2.265">
+<testcase classname="All crud operations on a customer" name="Validate create customer operations are executed successfully 2" time="1.975">
 <system-out><![CDATA[Given I am at the home page.................................................passed
 Then I can see Bank Manager Login_Button....................................passed
 When I click on Bank Manager Login..........................................passed
@@ -27,7 +27,7 @@ When I Input "", "test","5" and click on Add Customer.......................pass
 Then I should get a success "Please fill out this field." on the operation..passed
 ]]></system-out>
 </testcase>
-<testcase classname="All crud operations on a customer" name="Validate create customer operations are executed successfully 3" time="2.337">
+<testcase classname="All crud operations on a customer" name="Validate create customer operations are executed successfully 3" time="1.559">
 <system-out><![CDATA[Given I am at the home page.................................................passed
 Then I can see Bank Manager Login_Button....................................passed
 When I click on Bank Manager Login..........................................passed
@@ -38,7 +38,7 @@ When I Input "test", "","30" and click on Add Customer......................pass
 Then I should get a success "Please fill out this field." on the operation..passed
 ]]></system-out>
 </testcase>
-<testcase classname="All crud operations on a customer" name="Validate create customer operations are executed successfully 4" time="2.396">
+<testcase classname="All crud operations on a customer" name="Validate create customer operations are executed successfully 4" time="2.178">
 <system-out><![CDATA[Given I am at the home page.................................................passed
 Then I can see Bank Manager Login_Button....................................passed
 When I click on Bank Manager Login..........................................passed
@@ -49,8 +49,8 @@ When I Input "test", "test","" and click on Add Customer....................pass
 Then I should get a success "Please fill out this field." on the operation..passed
 ]]></system-out>
 </testcase>
-<testcase classname="All crud operations on a customer" name="Validate create customer operations are executed successfully 5" time="1.822">
-<failure message="unexpected alert open: {Alert text : Customer added successfully with customer id :6}&#10;  (Session info: chrome=97.0.4692.99): Customer added successfully with customer id :6&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LTTECH1693', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\DCHEPK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63860}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 97560d38c2a704904d8b5ff17cf1132d&#10;*** Element info: {Using=xpath, value=//*[@ng-model='fName']}" type="org.openqa.selenium.UnhandledAlertException"><![CDATA[Given I am at the home page.................................................passed
+<testcase classname="All crud operations on a customer" name="Validate create customer operations are executed successfully 5" time="1.532">
+<failure message="unexpected alert open: {Alert text : Customer added successfully with customer id :6}&#10;  (Session info: chrome=97.0.4692.99): Customer added successfully with customer id :6&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LTTECH1693', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\DCHEPK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50334}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 4fa71da455943640c53dcb540d2e98b1&#10;*** Element info: {Using=xpath, value=//*[@ng-model='fName']}" type="org.openqa.selenium.UnhandledAlertException"><![CDATA[Given I am at the home page.................................................passed
 Then I can see Bank Manager Login_Button....................................passed
 When I click on Bank Manager Login..........................................passed
 Then I should be able to view Add Customer_Button...........................passed
@@ -65,8 +65,8 @@ org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text 
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LTTECH1693', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\DCHEPK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63860}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 97560d38c2a704904d8b5ff17cf1132d
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\DCHEPK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50334}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4fa71da455943640c53dcb540d2e98b1
 *** Element info: {Using=xpath, value=//*[@ng-model='fName']}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -77,12 +77,12 @@ Session ID: 97560d38c2a704904d8b5ff17cf1132d
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at stepDefinition.Customer.ValidateCustomerIsCreated(Customer.java:105)
+	at stepDefinition.Customer.ValidateCustomerIsCreated(Customer.java:73)
 	at ✽.I should get a success "Customer added successfully with customer id" on the operation(file:///C:/Users/dchepkemoi/eclipse-workspace2/Automation/src/test/resources/features/02_Customer.feature:15)
 ]]></failure>
 </testcase>
-<testcase classname="All crud operations on a customer" name="Validate create customer operations are executed successfully 6" time="1.464">
-<failure message="unexpected alert open: {Alert text : Customer added successfully with customer id :7}&#10;  (Session info: chrome=97.0.4692.99): Customer added successfully with customer id :7&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LTTECH1693', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\DCHEPK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63860}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 97560d38c2a704904d8b5ff17cf1132d&#10;*** Element info: {Using=xpath, value=//*[@ng-model='fName']}" type="org.openqa.selenium.UnhandledAlertException"><![CDATA[Given I am at the home page.................................................passed
+<testcase classname="All crud operations on a customer" name="Validate create customer operations are executed successfully 6" time="1.484">
+<failure message="unexpected alert open: {Alert text : Customer added successfully with customer id :7}&#10;  (Session info: chrome=97.0.4692.99): Customer added successfully with customer id :7&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LTTECH1693', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\DCHEPK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50334}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 4fa71da455943640c53dcb540d2e98b1&#10;*** Element info: {Using=xpath, value=//*[@ng-model='fName']}" type="org.openqa.selenium.UnhandledAlertException"><![CDATA[Given I am at the home page.................................................passed
 Then I can see Bank Manager Login_Button....................................passed
 When I click on Bank Manager Login..........................................passed
 Then I should be able to view Add Customer_Button...........................passed
@@ -97,8 +97,8 @@ org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text 
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LTTECH1693', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\DCHEPK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63860}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 97560d38c2a704904d8b5ff17cf1132d
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\DCHEPK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50334}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4fa71da455943640c53dcb540d2e98b1
 *** Element info: {Using=xpath, value=//*[@ng-model='fName']}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -109,11 +109,11 @@ Session ID: 97560d38c2a704904d8b5ff17cf1132d
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at stepDefinition.Customer.ValidateCustomerIsCreated(Customer.java:105)
+	at stepDefinition.Customer.ValidateCustomerIsCreated(Customer.java:73)
 	at ✽.I should get a success "Customer added successfully with customer id" on the operation(file:///C:/Users/dchepkemoi/eclipse-workspace2/Automation/src/test/resources/features/02_Customer.feature:15)
 ]]></failure>
 </testcase>
-<testcase classname="All crud operations on a bankaccouunt linked to a customer" name="Validate create customer operations are executed successfully" time="3.71">
+<testcase classname="All crud operations on a bankaccouunt linked to a customer" name="Validate create customer operations are executed successfully" time="3.637">
 <system-out><![CDATA[Given I am at the home_page page............................................passed
 Then I can view Bank Manager_Login_Button...................................passed
 When I click on Bank_Manager_Login_Button...................................passed
@@ -124,7 +124,7 @@ When I select "", "" and click on Process...................................pass
 Then I should get a success "Please fill out this field."...................passed
 ]]></system-out>
 </testcase>
-<testcase classname="All crud operations on a bankaccouunt linked to a customer" name="Validate create customer operations are executed successfully 2" time="1.714">
+<testcase classname="All crud operations on a bankaccouunt linked to a customer" name="Validate create customer operations are executed successfully 2" time="1.583">
 <system-out><![CDATA[Given I am at the home_page page............................................passed
 Then I can view Bank Manager_Login_Button...................................passed
 When I click on Bank_Manager_Login_Button...................................passed
@@ -135,7 +135,7 @@ When I select "", "test" and click on Process...............................pass
 Then I should get a success "Please fill out this field."...................passed
 ]]></system-out>
 </testcase>
-<testcase classname="All crud operations on a bankaccouunt linked to a customer" name="Validate create customer operations are executed successfully 3" time="1.772">
+<testcase classname="All crud operations on a bankaccouunt linked to a customer" name="Validate create customer operations are executed successfully 3" time="1.467">
 <system-out><![CDATA[Given I am at the home_page page............................................passed
 Then I can view Bank Manager_Login_Button...................................passed
 When I click on Bank_Manager_Login_Button...................................passed
@@ -146,7 +146,7 @@ When I select "test", "" and click on Process...............................pass
 Then I should get a success "Please fill out this field."...................passed
 ]]></system-out>
 </testcase>
-<testcase classname="All crud operations on a bankaccouunt linked to a customer" name="Validate create customer operations are executed successfully 4" time="1.477">
+<testcase classname="All crud operations on a bankaccouunt linked to a customer" name="Validate create customer operations are executed successfully 4" time="1.492">
 <system-out><![CDATA[Given I am at the home_page page............................................passed
 Then I can view Bank Manager_Login_Button...................................passed
 When I click on Bank_Manager_Login_Button...................................passed

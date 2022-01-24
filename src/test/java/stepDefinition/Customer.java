@@ -1,28 +1,17 @@
 package stepDefinition;
 
-import java.io.FileNotFoundException;
-import java.io.IOException;
-
 import org.junit.Assert;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.NoAlertPresentException;
-import org.openqa.selenium.UnhandledAlertException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.remote.CapabilityType;
-import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import dataAccess.CsvData;
-import io.cucumber.java.After;
-import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import stepDefinition.AccessHomePage;
 
 public class Customer {
 	private static WebDriver driver = AccessHomePage.driver;
@@ -64,28 +53,7 @@ public class Customer {
     
     @When("I Input {string}, {string},{string} and click on Add Customer")
     public static void createCustomer(String fname, String lname, String pcode) throws InterruptedException,NoAlertPresentException {
-//    	if(wait.until(ExpectedConditions.alertIsPresent())==null) {
-//    		System.out.println("alert was not present");
-//    	}
-//    	else {
-//    		System.out.println("ALRT WAS PRESENT");
-//    		Alert alert = driver.switchTo().alert(); 
-//			alert.accept();
-//    	}
-    	 try 
-    	    { 
-    		 Alert alert= driver.switchTo().alert();
-    	        alert.accept();
-    	        
-    	    }   // try 
-    	    catch (NoAlertPresentException  Ex) 
-    	    { 
-    	    	
-    	        
-    	    } 
-    	 catch(UnhandledAlertException e) {
-    		 
-    	 }
+
     	 
     	WebElement firstNameInput = driver.findElement(By.xpath("//*[@ng-model='fName']"));
     	firstNameInput.sendKeys(fname);

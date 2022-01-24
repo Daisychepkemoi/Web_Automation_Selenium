@@ -28,15 +28,11 @@ public class AccessHomePage {
     
     @Before
     public static void setUpClass() {
-//    	  wait=new WebDriverWait(driver, 5);
+    	  wait=new WebDriverWait(driver, 5);
     	  baseUrl =ConfigData.getInstance().getBaseUrl();
       
     }
-//    @After
-//    public static void closeDriver() {
-//    	  driver.close();
-//      
-//    }
+  
     @Given("I have the correct url")
     public static void loadbaseUrl() throws InterruptedException  {
 		driver.get(baseUrl);
