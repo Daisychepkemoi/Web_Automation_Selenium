@@ -1,0 +1,1557 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-24T05:31:00.489Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10331000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.AccessHomePage.setUpClass()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Validate you can Load HomePage",
+        "description": "",
+        "id": "create-customer;validate-you-can-load-homepage",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2047000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I have the correct url",
+            "match": {
+              "location": "stepDefinition.AccessHomePage.loadbaseUrl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 952000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should be able to view Customer login button",
+            "match": {
+              "location": "stepDefinition.AccessHomePage.validateViewOfLandingPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HomePage"
+          },
+          {
+            "name": "@LoadHomePage"
+          }
+        ]
+      }
+    ],
+    "name": "Create Customer",
+    "description": "  I want to create customer",
+    "id": "create-customer",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/01_AccessHomePage.feature",
+    "tags": [
+      {
+        "name": "@HomePage",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-24T05:31:14.085Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.AccessHomePage.setUpClass()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Validate create customer operations are executed successfully",
+        "description": "",
+        "id": "all-crud-operations-on-a-customer;validate-create-customer-operations-are-executed-successfully;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 649000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am at the home page",
+            "match": {
+              "location": "stepDefinition.Customer.homepageAccess()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 165000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I can see Bank Manager Login_Button",
+            "match": {
+              "location": "stepDefinition.Customer.validateViewOfBankManagerLogin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 137000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on Bank Manager Login",
+            "match": {
+              "location": "stepDefinition.Customer.clickBankManagerLogin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 711000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should be able to view Add Customer_Button",
+            "match": {
+              "location": "stepDefinition.Customer.validateViewOfAddCustomerButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 86000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on Add Customer Button",
+            "match": {
+              "location": "stepDefinition.Customer.clickAddCustomerButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 718000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should view input options to enter customer details",
+            "match": {
+              "location": "stepDefinition.Customer.validateViewOfCustomerDetailsInputs()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 853000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I Input \"\", \"\",\"\" and click on Add Customer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinition.Customer.createCustomer(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoAlertPresentException: no such alert\n  (Session info: chrome\u003d97.0.4692.99)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LTTECH1693\u0027, ip: \u0027192.168.8.101\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_271\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\\Users\\DCHEPK~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:63450}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c51965cbe56fadfc8fe39c8fa5399f77\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:932)\r\n\tat stepDefinition.BankAccount.ValidateCustomerIsCreated(BankAccount.java:99)\r\n\tat ✽.I should get a success \"Please fill out this field.\" on the operation(file:///C:/Users/dchepkemoi/eclipse-workspace2/Automation/src/test/resources/features/02_Customer.feature:15)\r\n",
+              "duration": 65000000,
+              "status": "failed"
+            },
+            "line": 15,
+            "name": "I should get a success \"Please fill out this field.\" on the operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Please fill out this field.\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepDefinition.BankAccount.ValidateCustomerIsCreated(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@crudCustomer"
+          },
+          {
+            "name": "@createCustomer"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-24T05:31:17.511Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.AccessHomePage.setUpClass()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Validate create customer operations are executed successfully",
+        "description": "",
+        "id": "all-crud-operations-on-a-customer;validate-create-customer-operations-are-executed-successfully;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 169000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am at the home page",
+            "match": {
+              "location": "stepDefinition.Customer.homepageAccess()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 238000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I can see Bank Manager Login_Button",
+            "match": {
+              "location": "stepDefinition.Customer.validateViewOfBankManagerLogin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 235000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on Bank Manager Login",
+            "match": {
+              "location": "stepDefinition.Customer.clickBankManagerLogin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 226000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should be able to view Add Customer_Button",
+            "match": {
+              "location": "stepDefinition.Customer.validateViewOfAddCustomerButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 137000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on Add Customer Button",
+            "match": {
+              "location": "stepDefinition.Customer.clickAddCustomerButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 233000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should view input options to enter customer details",
+            "match": {
+              "location": "stepDefinition.Customer.validateViewOfCustomerDetailsInputs()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 608000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I Input \"\", \"test\",\"5\" and click on Add Customer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"test\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"5\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinition.Customer.createCustomer(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoAlertPresentException: no such alert\n  (Session info: chrome\u003d97.0.4692.99)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LTTECH1693\u0027, ip: \u0027192.168.8.101\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_271\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\\Users\\DCHEPK~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:63450}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c51965cbe56fadfc8fe39c8fa5399f77\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:932)\r\n\tat stepDefinition.BankAccount.ValidateCustomerIsCreated(BankAccount.java:99)\r\n\tat ✽.I should get a success \"Please fill out this field.\" on the operation(file:///C:/Users/dchepkemoi/eclipse-workspace2/Automation/src/test/resources/features/02_Customer.feature:15)\r\n",
+              "duration": 26000000,
+              "status": "failed"
+            },
+            "line": 15,
+            "name": "I should get a success \"Please fill out this field.\" on the operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Please fill out this field.\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepDefinition.BankAccount.ValidateCustomerIsCreated(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@crudCustomer"
+          },
+          {
+            "name": "@createCustomer"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-24T05:31:19.403Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.AccessHomePage.setUpClass()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Validate create customer operations are executed successfully",
+        "description": "",
+        "id": "all-crud-operations-on-a-customer;validate-create-customer-operations-are-executed-successfully;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 79000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am at the home page",
+            "match": {
+              "location": "stepDefinition.Customer.homepageAccess()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 168000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I can see Bank Manager Login_Button",
+            "match": {
+              "location": "stepDefinition.Customer.validateViewOfBankManagerLogin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 125000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on Bank Manager Login",
+            "match": {
+              "location": "stepDefinition.Customer.clickBankManagerLogin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 167000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should be able to view Add Customer_Button",
+            "match": {
+              "location": "stepDefinition.Customer.validateViewOfAddCustomerButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 116000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on Add Customer Button",
+            "match": {
+              "location": "stepDefinition.Customer.clickAddCustomerButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 161000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should view input options to enter customer details",
+            "match": {
+              "location": "stepDefinition.Customer.validateViewOfCustomerDetailsInputs()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 424000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I Input \"test\", \"\",\"30\" and click on Add Customer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"30\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinition.Customer.createCustomer(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoAlertPresentException: no such alert\n  (Session info: chrome\u003d97.0.4692.99)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LTTECH1693\u0027, ip: \u0027192.168.8.101\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_271\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\\Users\\DCHEPK~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:63450}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c51965cbe56fadfc8fe39c8fa5399f77\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:932)\r\n\tat stepDefinition.BankAccount.ValidateCustomerIsCreated(BankAccount.java:99)\r\n\tat ✽.I should get a success \"Please fill out this field.\" on the operation(file:///C:/Users/dchepkemoi/eclipse-workspace2/Automation/src/test/resources/features/02_Customer.feature:15)\r\n",
+              "duration": 16000000,
+              "status": "failed"
+            },
+            "line": 15,
+            "name": "I should get a success \"Please fill out this field.\" on the operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Please fill out this field.\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepDefinition.BankAccount.ValidateCustomerIsCreated(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@crudCustomer"
+          },
+          {
+            "name": "@createCustomer"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-24T05:31:20.674Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.AccessHomePage.setUpClass()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Validate create customer operations are executed successfully",
+        "description": "",
+        "id": "all-crud-operations-on-a-customer;validate-create-customer-operations-are-executed-successfully;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 67000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am at the home page",
+            "match": {
+              "location": "stepDefinition.Customer.homepageAccess()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 122000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I can see Bank Manager Login_Button",
+            "match": {
+              "location": "stepDefinition.Customer.validateViewOfBankManagerLogin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 102000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on Bank Manager Login",
+            "match": {
+              "location": "stepDefinition.Customer.clickBankManagerLogin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 151000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should be able to view Add Customer_Button",
+            "match": {
+              "location": "stepDefinition.Customer.validateViewOfAddCustomerButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 92000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on Add Customer Button",
+            "match": {
+              "location": "stepDefinition.Customer.clickAddCustomerButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 140000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should view input options to enter customer details",
+            "match": {
+              "location": "stepDefinition.Customer.validateViewOfCustomerDetailsInputs()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 455000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I Input \"test\", \"test\",\"\" and click on Add Customer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"test\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepDefinition.Customer.createCustomer(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoAlertPresentException: no such alert\n  (Session info: chrome\u003d97.0.4692.99)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LTTECH1693\u0027, ip: \u0027192.168.8.101\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_271\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\\Users\\DCHEPK~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:63450}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c51965cbe56fadfc8fe39c8fa5399f77\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:932)\r\n\tat stepDefinition.BankAccount.ValidateCustomerIsCreated(BankAccount.java:99)\r\n\tat ✽.I should get a success \"Please fill out this field.\" on the operation(file:///C:/Users/dchepkemoi/eclipse-workspace2/Automation/src/test/resources/features/02_Customer.feature:15)\r\n",
+              "duration": 16000000,
+              "status": "failed"
+            },
+            "line": 15,
+            "name": "I should get a success \"Please fill out this field.\" on the operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Please fill out this field.\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepDefinition.BankAccount.ValidateCustomerIsCreated(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@crudCustomer"
+          },
+          {
+            "name": "@createCustomer"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-24T05:31:21.830Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.AccessHomePage.setUpClass()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Validate create customer operations are executed successfully",
+        "description": "",
+        "id": "all-crud-operations-on-a-customer;validate-create-customer-operations-are-executed-successfully;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 66000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am at the home page",
+            "match": {
+              "location": "stepDefinition.Customer.homepageAccess()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 127000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I can see Bank Manager Login_Button",
+            "match": {
+              "location": "stepDefinition.Customer.validateViewOfBankManagerLogin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 97000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on Bank Manager Login",
+            "match": {
+              "location": "stepDefinition.Customer.clickBankManagerLogin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 154000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should be able to view Add Customer_Button",
+            "match": {
+              "location": "stepDefinition.Customer.validateViewOfAddCustomerButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 128000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on Add Customer Button",
+            "match": {
+              "location": "stepDefinition.Customer.clickAddCustomerButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 152000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should view input options to enter customer details",
+            "match": {
+              "location": "stepDefinition.Customer.validateViewOfCustomerDetailsInputs()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 518000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I Input \"test\", \"test\",\"45\" and click on Add Customer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"test\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"45\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepDefinition.Customer.createCustomer(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat stepDefinition.BankAccount.ValidateCustomerIsCreated(BankAccount.java:103)\r\n\tat ✽.I should get a success \"Please check the details. Customer may be duplicate.\" on the operation(file:///C:/Users/dchepkemoi/eclipse-workspace2/Automation/src/test/resources/features/02_Customer.feature:15)\r\n",
+              "duration": 83000000,
+              "status": "failed"
+            },
+            "line": 15,
+            "name": "I should get a success \"Please check the details. Customer may be duplicate.\" on the operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Please check the details. Customer may be duplicate.\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepDefinition.BankAccount.ValidateCustomerIsCreated(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@crudCustomer"
+          },
+          {
+            "name": "@createCustomer"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-24T05:31:23.161Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.AccessHomePage.setUpClass()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Validate create customer operations are executed successfully",
+        "description": "",
+        "id": "all-crud-operations-on-a-customer;validate-create-customer-operations-are-executed-successfully;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 89000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am at the home page",
+            "match": {
+              "location": "stepDefinition.Customer.homepageAccess()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 153000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I can see Bank Manager Login_Button",
+            "match": {
+              "location": "stepDefinition.Customer.validateViewOfBankManagerLogin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 111000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on Bank Manager Login",
+            "match": {
+              "location": "stepDefinition.Customer.clickBankManagerLogin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 153000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should be able to view Add Customer_Button",
+            "match": {
+              "location": "stepDefinition.Customer.validateViewOfAddCustomerButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 108000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on Add Customer Button",
+            "match": {
+              "location": "stepDefinition.Customer.clickAddCustomerButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 155000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should view input options to enter customer details",
+            "match": {
+              "location": "stepDefinition.Customer.validateViewOfCustomerDetailsInputs()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 492000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I Input \"test\", \"test\",\"45\" and click on Add Customer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"test\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"45\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepDefinition.Customer.createCustomer(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat stepDefinition.BankAccount.ValidateCustomerIsCreated(BankAccount.java:103)\r\n\tat ✽.I should get a success \"Please check the details. Customer may be duplicate.\" on the operation(file:///C:/Users/dchepkemoi/eclipse-workspace2/Automation/src/test/resources/features/02_Customer.feature:15)\r\n",
+              "duration": 84000000,
+              "status": "failed"
+            },
+            "line": 15,
+            "name": "I should get a success \"Please check the details. Customer may be duplicate.\" on the operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Please check the details. Customer may be duplicate.\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepDefinition.BankAccount.ValidateCustomerIsCreated(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@crudCustomer"
+          },
+          {
+            "name": "@createCustomer"
+          }
+        ]
+      }
+    ],
+    "name": "All crud operations on a customer",
+    "description": "  I to do all CRUD operations for a given customer",
+    "id": "all-crud-operations-on-a-customer",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/02_Customer.feature",
+    "tags": [
+      {
+        "name": "@crudCustomer",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-24T05:31:24.518Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.AccessHomePage.setUpClass()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Validate create customer operations are executed successfully",
+        "description": "",
+        "id": "all-crud-operations-on-a-bankaccouunt-linked-to-a-customer;validate-create-customer-operations-are-executed-successfully;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 78000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am at the home_page page",
+            "match": {
+              "location": "stepDefinition.BankAccount.homepageAccess()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 189000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I can view Bank Manager_Login_Button",
+            "match": {
+              "location": "stepDefinition.BankAccount.validateViewOfBankManagerLogin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 135000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on Bank_Manager_Login_Button",
+            "match": {
+              "location": "stepDefinition.BankAccount.clickBankManagerLogin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 231000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should be able to view Open_Account_Button",
+            "match": {
+              "location": "stepDefinition.BankAccount.validateViewOfOpenAccountBtn()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 148000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on Open Account Button",
+            "match": {
+              "location": "stepDefinition.BankAccount.clickOpenAccountButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 749000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should view input options to enter customer Bank account details",
+            "match": {
+              "location": "stepDefinition.BankAccount.validateViewOfOpenAccountInputs()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//option[text()\u003d\u0027 \u0027]\"}\n  (Session info: chrome\u003d97.0.4692.99)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LTTECH1693\u0027, ip: \u0027192.168.8.101\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_271\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\\Users\\DCHEPK~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:63450}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c51965cbe56fadfc8fe39c8fa5399f77\n*** Element info: {Using\u003dxpath, value\u003d//option[text()\u003d\u0027 \u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat stepDefinition.BankAccount.createCustomer(BankAccount.java:70)\r\n\tat ✽.I select \"\", \"\" and click on Process(file:///C:/Users/dchepkemoi/eclipse-workspace2/Automation/src/test/resources/features/03_BankAccount.feature:14)\r\n",
+              "duration": 189000000,
+              "status": "failed"
+            },
+            "line": 14,
+            "name": "I select \"\", \"\" and click on Process",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinition.BankAccount.createCustomer(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I should get a success \"Please fill out this field.\" on the operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Please fill out this field.\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepDefinition.BankAccount.ValidateCustomerIsCreated(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CRUDONBANKACCOUNT"
+          },
+          {
+            "name": "@createCustomer"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-24T05:31:26.252Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.AccessHomePage.setUpClass()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Validate create customer operations are executed successfully",
+        "description": "",
+        "id": "all-crud-operations-on-a-bankaccouunt-linked-to-a-customer;validate-create-customer-operations-are-executed-successfully;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 75000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am at the home_page page",
+            "match": {
+              "location": "stepDefinition.BankAccount.homepageAccess()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 154000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I can view Bank Manager_Login_Button",
+            "match": {
+              "location": "stepDefinition.BankAccount.validateViewOfBankManagerLogin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 124000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on Bank_Manager_Login_Button",
+            "match": {
+              "location": "stepDefinition.BankAccount.clickBankManagerLogin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 176000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should be able to view Open_Account_Button",
+            "match": {
+              "location": "stepDefinition.BankAccount.validateViewOfOpenAccountBtn()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 98000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on Open Account Button",
+            "match": {
+              "location": "stepDefinition.BankAccount.clickOpenAccountButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 142000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should view input options to enter customer Bank account details",
+            "match": {
+              "location": "stepDefinition.BankAccount.validateViewOfOpenAccountInputs()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//option[text()\u003d\u0027 \u0027]\"}\n  (Session info: chrome\u003d97.0.4692.99)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LTTECH1693\u0027, ip: \u0027192.168.8.101\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_271\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\\Users\\DCHEPK~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:63450}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c51965cbe56fadfc8fe39c8fa5399f77\n*** Element info: {Using\u003dxpath, value\u003d//option[text()\u003d\u0027 \u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat stepDefinition.BankAccount.createCustomer(BankAccount.java:70)\r\n\tat ✽.I select \"\", \"test\" and click on Process(file:///C:/Users/dchepkemoi/eclipse-workspace2/Automation/src/test/resources/features/03_BankAccount.feature:14)\r\n",
+              "duration": 155000000,
+              "status": "failed"
+            },
+            "line": 14,
+            "name": "I select \"\", \"test\" and click on Process",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"test\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinition.BankAccount.createCustomer(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I should get a success \"Please fill out this field.\" on the operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Please fill out this field.\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepDefinition.BankAccount.ValidateCustomerIsCreated(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CRUDONBANKACCOUNT"
+          },
+          {
+            "name": "@createCustomer"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-24T05:31:27.185Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.AccessHomePage.setUpClass()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Validate create customer operations are executed successfully",
+        "description": "",
+        "id": "all-crud-operations-on-a-bankaccouunt-linked-to-a-customer;validate-create-customer-operations-are-executed-successfully;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 69000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am at the home_page page",
+            "match": {
+              "location": "stepDefinition.BankAccount.homepageAccess()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 121000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I can view Bank Manager_Login_Button",
+            "match": {
+              "location": "stepDefinition.BankAccount.validateViewOfBankManagerLogin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 94000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on Bank_Manager_Login_Button",
+            "match": {
+              "location": "stepDefinition.BankAccount.clickBankManagerLogin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 149000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should be able to view Open_Account_Button",
+            "match": {
+              "location": "stepDefinition.BankAccount.validateViewOfOpenAccountBtn()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 104000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on Open Account Button",
+            "match": {
+              "location": "stepDefinition.BankAccount.clickOpenAccountButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 134000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should view input options to enter customer Bank account details",
+            "match": {
+              "location": "stepDefinition.BankAccount.validateViewOfOpenAccountInputs()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//option[text()\u003d\u0027 \u0027]\"}\n  (Session info: chrome\u003d97.0.4692.99)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LTTECH1693\u0027, ip: \u0027192.168.8.101\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_271\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\\Users\\DCHEPK~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:63450}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c51965cbe56fadfc8fe39c8fa5399f77\n*** Element info: {Using\u003dxpath, value\u003d//option[text()\u003d\u0027 \u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat stepDefinition.BankAccount.createCustomer(BankAccount.java:70)\r\n\tat ✽.I select \"test\", \"\" and click on Process(file:///C:/Users/dchepkemoi/eclipse-workspace2/Automation/src/test/resources/features/03_BankAccount.feature:14)\r\n",
+              "duration": 161000000,
+              "status": "failed"
+            },
+            "line": 14,
+            "name": "I select \"test\", \"\" and click on Process",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinition.BankAccount.createCustomer(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I should get a success \"Please fill out this field.\" on the operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Please fill out this field.\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepDefinition.BankAccount.ValidateCustomerIsCreated(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CRUDONBANKACCOUNT"
+          },
+          {
+            "name": "@createCustomer"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-24T05:31:28.027Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.AccessHomePage.setUpClass()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Validate create customer operations are executed successfully",
+        "description": "",
+        "id": "all-crud-operations-on-a-bankaccouunt-linked-to-a-customer;validate-create-customer-operations-are-executed-successfully;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 86000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am at the home_page page",
+            "match": {
+              "location": "stepDefinition.BankAccount.homepageAccess()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 120000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I can view Bank Manager_Login_Button",
+            "match": {
+              "location": "stepDefinition.BankAccount.validateViewOfBankManagerLogin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 91000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on Bank_Manager_Login_Button",
+            "match": {
+              "location": "stepDefinition.BankAccount.clickBankManagerLogin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 138000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should be able to view Open_Account_Button",
+            "match": {
+              "location": "stepDefinition.BankAccount.validateViewOfOpenAccountBtn()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 99000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on Open Account Button",
+            "match": {
+              "location": "stepDefinition.BankAccount.clickOpenAccountButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 138000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should view input options to enter customer Bank account details",
+            "match": {
+              "location": "stepDefinition.BankAccount.validateViewOfOpenAccountInputs()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//option[text()\u003d\u0027 \u0027]\"}\n  (Session info: chrome\u003d97.0.4692.99)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LTTECH1693\u0027, ip: \u0027192.168.8.101\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_271\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\\Users\\DCHEPK~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:63450}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c51965cbe56fadfc8fe39c8fa5399f77\n*** Element info: {Using\u003dxpath, value\u003d//option[text()\u003d\u0027 \u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat stepDefinition.BankAccount.createCustomer(BankAccount.java:70)\r\n\tat ✽.I select \"test\", \"test\" and click on Process(file:///C:/Users/dchepkemoi/eclipse-workspace2/Automation/src/test/resources/features/03_BankAccount.feature:14)\r\n",
+              "duration": 142000000,
+              "status": "failed"
+            },
+            "line": 14,
+            "name": "I select \"test\", \"test\" and click on Process",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"test\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinition.BankAccount.createCustomer(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I should get a success \"Please fill out this field.\" on the operation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Please fill out this field.\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepDefinition.BankAccount.ValidateCustomerIsCreated(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CRUDONBANKACCOUNT"
+          },
+          {
+            "name": "@createCustomer"
+          }
+        ]
+      }
+    ],
+    "name": "All crud operations on a bankaccouunt linked to a customer",
+    "description": "  I to do all CRUD operations for a given customer",
+    "id": "all-crud-operations-on-a-bankaccouunt-linked-to-a-customer",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/03_BankAccount.feature",
+    "tags": [
+      {
+        "name": "@CRUDONBANKACCOUNT",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

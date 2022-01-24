@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script>
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<title>Cucumber Reports (no 1) - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+        <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+        <th>Number</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>CucumberProject</td>
+        <td>1</td>
+      <td>24 Jan 2022, 08:31</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+  </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+      <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+  </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Average duration</th>
+            <th>Max duration</th>
+            <th>Total durations</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+              <td class="location">stepDefinition.AccessHomePage.loadbaseUrl()</td>
+              <td>1</td>
+              <td class="duration" data-value="2047000000">2.047</td>
+              <td class="duration" data-value="2047000000">2.047</td>
+              <td class="duration" data-value="2047000000">2.047</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinition.AccessHomePage.setUpClass()</td>
+              <td>11</td>
+              <td class="duration" data-value="939272727">0.939</td>
+              <td class="duration" data-value="939272727">10.331</td>
+              <td class="duration" data-value="10332000000">10.332</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinition.AccessHomePage.validateViewOfLandingPage()</td>
+              <td>1</td>
+              <td class="duration" data-value="952000000">0.952</td>
+              <td class="duration" data-value="952000000">0.952</td>
+              <td class="duration" data-value="952000000">0.952</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinition.BankAccount.ValidateCustomerIsCreated(java.lang.String)</td>
+              <td>10</td>
+              <td class="duration" data-value="29000000">0.029</td>
+              <td class="duration" data-value="29000000">0.084</td>
+              <td class="duration" data-value="290000000">0.290</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinition.BankAccount.clickBankManagerLogin()</td>
+              <td>4</td>
+              <td class="duration" data-value="111000000">0.111</td>
+              <td class="duration" data-value="111000000">0.135</td>
+              <td class="duration" data-value="444000000">0.444</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinition.BankAccount.clickOpenAccountButton()</td>
+              <td>4</td>
+              <td class="duration" data-value="112250000">0.112</td>
+              <td class="duration" data-value="112250000">0.148</td>
+              <td class="duration" data-value="449000000">0.449</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinition.BankAccount.createCustomer(java.lang.String,java.lang.String)</td>
+              <td>4</td>
+              <td class="duration" data-value="161750000">0.161</td>
+              <td class="duration" data-value="161750000">0.189</td>
+              <td class="duration" data-value="647000000">0.647</td>
+              <td class="failed">0.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinition.BankAccount.homepageAccess()</td>
+              <td>4</td>
+              <td class="duration" data-value="77000000">0.077</td>
+              <td class="duration" data-value="77000000">0.086</td>
+              <td class="duration" data-value="308000000">0.308</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinition.BankAccount.validateViewOfBankManagerLogin()</td>
+              <td>4</td>
+              <td class="duration" data-value="146000000">0.146</td>
+              <td class="duration" data-value="146000000">0.189</td>
+              <td class="duration" data-value="584000000">0.584</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinition.BankAccount.validateViewOfOpenAccountBtn()</td>
+              <td>4</td>
+              <td class="duration" data-value="173500000">0.173</td>
+              <td class="duration" data-value="173500000">0.231</td>
+              <td class="duration" data-value="694000000">0.694</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinition.BankAccount.validateViewOfOpenAccountInputs()</td>
+              <td>4</td>
+              <td class="duration" data-value="290750000">0.290</td>
+              <td class="duration" data-value="290750000">0.749</td>
+              <td class="duration" data-value="1163000000">1.163</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinition.Customer.clickAddCustomerButton()</td>
+              <td>6</td>
+              <td class="duration" data-value="111166666">0.111</td>
+              <td class="duration" data-value="111166666">0.137</td>
+              <td class="duration" data-value="667000000">0.667</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinition.Customer.clickBankManagerLogin()</td>
+              <td>6</td>
+              <td class="duration" data-value="134500000">0.134</td>
+              <td class="duration" data-value="134500000">0.235</td>
+              <td class="duration" data-value="807000000">0.807</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinition.Customer.createCustomer(java.lang.String,java.lang.String,java.lang.String)</td>
+              <td>6</td>
+              <td class="duration" data-value="558333333">0.558</td>
+              <td class="duration" data-value="558333333">0.853</td>
+              <td class="duration" data-value="3350000000">3.350</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinition.Customer.homepageAccess()</td>
+              <td>6</td>
+              <td class="duration" data-value="186500000">0.186</td>
+              <td class="duration" data-value="186500000">0.649</td>
+              <td class="duration" data-value="1119000000">1.119</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinition.Customer.validateViewOfAddCustomerButton()</td>
+              <td>6</td>
+              <td class="duration" data-value="260333333">0.260</td>
+              <td class="duration" data-value="260333333">0.711</td>
+              <td class="duration" data-value="1562000000">1.562</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinition.Customer.validateViewOfBankManagerLogin()</td>
+              <td>6</td>
+              <td class="duration" data-value="162166666">0.162</td>
+              <td class="duration" data-value="162166666">0.238</td>
+              <td class="duration" data-value="973000000">0.973</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">stepDefinition.Customer.validateViewOfCustomerDetailsInputs()</td>
+              <td>6</td>
+              <td class="duration" data-value="259833333">0.259</td>
+              <td class="duration" data-value="259833333">0.718</td>
+              <td class="duration" data-value="1559000000">1.559</td>
+              <td class="passed">100.00%</td>
+            </tr>
+        </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>18</td>
+            <td>93</td>
+            <td class="duration">0.300</td>
+            <td class="duration">10.332</td>
+            <td class="duration">27.947</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>
