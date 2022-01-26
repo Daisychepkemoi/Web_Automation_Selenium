@@ -21,15 +21,10 @@ public class CsvData
 	
 	private static XSSFSheet ExcelWSheet;
 	   private XSSFWorkbook ExcelWBook;
-	   
-	   //Constructor to connect to the Excel with sheetname and Path
 	   public CsvData(String Path, String SheetName) throws Exception {
 	   
 	      try {
-	         // Open the Excel file
 	         FileInputStream ExcelFile = new FileInputStream(Path);
-	         
-	         // Access the required test data sheet
 	         ExcelWBook = new XSSFWorkbook(ExcelFile);
 	         ExcelWSheet = ExcelWBook.getSheet(SheetName);
 	      } catch (Exception e) {
@@ -37,7 +32,6 @@ public class CsvData
 	      }
 	   }
 	      
-	   //This method is to set the rowcount of the excel.
 	   public static int excel_get_rows() throws Exception {
 	   
 	      try {
@@ -47,7 +41,6 @@ public class CsvData
 	      }
 	   }
 	   
-	   //This method to get the data and get the value as strings.
 	   public static String getCellDataasstring(int RowNum, int ColNum) throws Exception {
 	   
 	      try {
@@ -59,9 +52,7 @@ public class CsvData
 	         return "";
 	      }
 	   }
-	   
-	   //This method to get the data and get the value as number.
-	   public static double getCellDataasnumber(int RowNum, int ColNum) throws Exception {
+    public static double getCellDataasnumber(int RowNum, int ColNum) throws Exception {
 	   
 	      try {
 	         double CellData =

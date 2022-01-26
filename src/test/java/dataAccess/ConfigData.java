@@ -43,18 +43,5 @@ public class ConfigData {
             throw new RuntimeException("BaseUrl not specified in the Configuration.properties file.");
     }
 
-    public String getToken() {
-        String token = properties.getProperty("token");
-        if (token != null)
-            return token;
-        else
-            throw new RuntimeException("token not specified in the Configuration.properties file.");
-    }
-    public String getLogLocation() {
-        String token = properties.getProperty("storeLogsHere");
-        if (token != null)
-            return token;
-        else
-            throw new RuntimeException("storeLogsHere not specified in the Configuration.properties file.");
-    }
+  
 }
